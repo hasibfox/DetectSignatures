@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+section h1 {
+    width: 100%;
+    text-align: center;
+}
+
+form {
+    margin: 5vh;
+    display: grid;
+    grid-template-columns: 10fr 1fr 10fr;
+    grid-template-rows: 10fr 1fr;
+    border: black 2px solid;
+    height: 80vh;
+    padding: 2vh;
+    border-radius: 5px;
+    
+}
+
+form textarea{
+    height: 75vh;
+    grid-row: 1;
+    grid-column: 1;
+    padding: 1vh;
+}
+.convert{
+    height: 50px;
+    width: 10%;
+    margin: 5vh;
+    cursor: pointer;
+    margin-top: 3vh;
+    background: crimson;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s ease-in-out;
+    border-radius: 5px;
+}
+.convert:hover{
+    color: crimson;
+    background-color: white;
+    border: 2px black solid;
+}
+.btns{
+    grid-row: 2;
+    grid-column: 1/4;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.response {
+    height: 75vh;
+    grid-row: 1;
+    padding: 1vh;
+    grid-column: 3;
+    word-wrap: break-word;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: left;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+#signature-body{
+    cursor: pointer;
+}
+
+.inp-inv{
+    position: absolute;
+    z-index: -1;
+}
+
+.accordion-button.JPEG.collapsed{
+    background: lightgray;
+}
+.accordion-button.JPEG{
+    background: gray;
+}
+
+.accordion-button.PDF.collapsed{
+    background: rgb(245, 85, 85);
+}
+.accordion-button.PDF{
+    background: red;
+}
+
+.accordion-button.DOC.collapsed{
+    background: lightskyblue;
+}
+.accordion-button.DOC{
+    background: rgb(35, 188, 248);
+}
+
+.accordion-button.XLS.collapsed{
+    background: lightgreen;
+}
+.accordion-button.XLS{
+    background: green;
+}
+
+.accordion-button.PPT.collapsed{
+    background: lightsalmon;
+}
+.accordion-button.PPT{
+    background: salmon;
+}
+
+.accordion-button.ZIP.collapsed{
+    background: lightyellow;
+}
+.accordion-button.ZIP{
+    background: yellow;
+}
+
+.accordion-button.GIF.collapsed{
+    background: rgb(194, 132, 245);
+}
+.accordion-button.GIF{
+    background: rgb(140, 0, 255);
+}
+input{
+    position: absolute;
+    width: 10vh;
+    margin-top: -500000vh;
+
+}
+.accordion-button{
+    color: black !important;
+    font-weight: bolder;
+}
+.accordion-button:after {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+  }

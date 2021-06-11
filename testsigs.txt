@@ -1,0 +1,26 @@
+ffd8ff lol this is one ffd9 wriusgnbwiugnsizudv
+
+nsgnjndi ffd8ff helloitsmewhereareyou ffd9 
+
+okay bro okay brotheerr
+
+ffd8ff This is a boring JPEG File ffd9 
+D0 CF 11 E0 A1 B1 1A E1 This is a XLS Spreadsheet with FREE IPhone discouts IPFE FF FF FF 00 00 00 00 00 00 00 00 57 00 6F 00 72 00 6B 00 62 00 6F 00 6F 00 6B 00 
+
+isnfidbfsibfa D0 CF 11 E0 A1 B1 1A E1 A cool PPT presentation with all of Google's passwords 50 00 6F 00 77 00 65 00 72 00 50 00 6F 00 69 00 6E 00 74 00 20 00 44 00 6F 00 63 00 75 00 6D 00 65 00 6E 00 74 50 4B 03 04 14 This ZIP has a buncha Nero pics beware 50 4B 05 06 00 47 49 46 38 39 61 4E 01 53 00 C4 Hehe a funny cat gif 21 00 00 3B 00 25 50 44 46 2D 31 2E PDF to study for Security + Exam 25 25 45 4F 46
+
+
+
+<div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-heading${key}">
+                <button class="accordion-button ${item.type}" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse${key}" aria-expanded="true" aria-controls="panelsStayOpen-collapse${key}">
+                    Signature ${key} | Type: ${item.type}
+                </button>
+                </h2>
+                <div id="panelsStayOpen-collapse${key}" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-heading${key}">
+                    <input type="text" class="inp-inv" name="" placeholder="some text" value=${item.sig} id ="show${key}">
+                    <div class="accordion-body" title="Click to Copy!" id="signature-body" onclick="copy(${key})">
+                        ${item.sig}
+                    </div>
+                </div>
+            </div>
