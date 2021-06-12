@@ -67,6 +67,18 @@ form textarea{
 #signature-body{
     cursor: pointer;
 }
+.table-container{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sigstable{
+    width: 30%;
+    border: 2px solid black;
+}
 
 .inp-inv{
     position: absolute;
