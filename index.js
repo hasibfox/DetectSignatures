@@ -1,4 +1,6 @@
-
+setTimeout(function(){
+    window.alert("Inserting multiple entries of the same type of data (i.e two PDF data) will cause the site to crash. Please be patient as I try to optimize the search algorithms. Thank you!")
+}, 1000)
 
 var convert = document.getElementById("convert");
 convert.addEventListener("click", highlightText);

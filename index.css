@@ -40,6 +40,10 @@ form textarea{
     transition: all .5s ease-in-out;
     border-radius: 5px;
 }
+h3{
+    padding: 20px;
+    margin-top: -100px;
+}
 .convert:hover{
     color: crimson;
     background-color: white;
